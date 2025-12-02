@@ -250,7 +250,7 @@ Jupyter notebooks for training the voice command recognition model.
 3. Connect the ESP32 client to your laptop via USB
 4. Run the GUI:
    ```bash
-   python GUI/python_GUI/ble_gui.py
+   python GUI/python_GUI/nble_gui.py
    ```
 
 ### Model Training
