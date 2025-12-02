@@ -70,7 +70,7 @@ Code/
 │   ├── ESP32/
 │   │   └── Client.ino                  # ESP32 BLE client (connects laptop to microbot)
 │   └── python_GUI/
-│       ├── latest_ble_gui.py           # PySide6 GUI for robot control and monitoring
+│       ├── ble_gui.py           # PySide6 GUI for robot control and monitoring
 │       └── requirements.txt            # Python dependencies for GUI
 └── model/                              # Machine Learning model training
     ├── Generate Training Data Command Recognition.ipynb    # Data generation notebook
@@ -157,7 +157,7 @@ A Python-based graphical user interface for controlling and monitoring the micro
 - Forwards serial commands as BLE writes
 - Receives BLE notifications and prints them to serial
 
-#### Python GUI (`python_GUI/latest_ble_gui.py`)
+#### Python GUI (`python_GUI/ble_gui.py`)
 A modern PySide6 application with:
 
 **Features:**
@@ -250,7 +250,7 @@ Jupyter notebooks for training the voice command recognition model.
 3. Connect the ESP32 client to your laptop via USB
 4. Run the GUI:
    ```bash
-   python GUI/python_GUI/latest_ble_gui.py
+   python GUI/python_GUI/ble_gui.py
    ```
 
 ### Model Training
