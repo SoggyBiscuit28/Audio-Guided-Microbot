@@ -2,7 +2,7 @@
 
 # Audio-Guided Microbot
 
-### Team 17 : Sensodyne
+### Team Biscuit
 
 A voice-controlled microbot using ESP32-S3 with on-device machine learning for real-time audio command recognition.
 
